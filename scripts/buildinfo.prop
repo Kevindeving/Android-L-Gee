@@ -46,6 +46,9 @@ ro.build.characteristics=nosdcard
 ##LTE, GSM, WCDMA(9)
 ##
 ro.telephony.default_network=9
+telephony.lteOnCdmaDevice=0
+telephony.lteOnGsmDevice=1
+ro.ril.def.preferred.network=9
 
 ##
 ## ADDITIONAL_BUILD_PROPERTIES
@@ -85,6 +88,7 @@ ro.hwui.text_small_cache_width=1024
 ro.hwui.text_small_cache_height=1024
 ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=1024
+qemu.hw.mainkeys=1
 dalvik.vm.heapstartsize=16m
 dalvik.vm.heapgrowthlimit=192m
 dalvik.vm.heapsize=512m
