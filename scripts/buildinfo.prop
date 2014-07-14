@@ -98,6 +98,7 @@ dalvik.vm.heapsize=512m
 dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.heapminfree=512k
 dalvik.vm.heapmaxfree=8m
+dalvik.vm.profiler=1
 ro.telephony.call_ring.multiple=0
 wifi.interface=wlan0
 wifi.supplicant_scan_interval=15
